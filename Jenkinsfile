@@ -31,7 +31,7 @@ pipeline {
         }
         stage('Deploy to AWS') {
             steps {
-                // Add deployment commands here, e.g., AWS CLI commands
+                echo "deploying"
             }
         }
     }
